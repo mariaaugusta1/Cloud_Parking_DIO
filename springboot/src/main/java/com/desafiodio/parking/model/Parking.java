@@ -1,4 +1,4 @@
-package model;
+package com.desafiodio.parking.model;
 
 import java.time.LocalDateTime;
 
@@ -23,11 +23,11 @@ public class Parking {
     public Parking() {
     }
 
-    public String getIo() {
+    public String getId() {
         return id;
     }
 
-    public void setIo(String id) {
+    public void setId(String id) {
         this.id = id;
     }
 
